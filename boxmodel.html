@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Box Model Illustration</title>
+    <style>
+        div {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,0);
+            text-align: center;
+        }
+        h3, button {
+            text-align: center;
+            font-size: 2rem;
+        }
+        button {
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Without any modifications</h3>
+        <button>Hello</button>
+        <h3>With padding</h3>
+        <button style="padding:30px;">Hello</button>
+        <h3>With margin</h3>
+        <button style="margin:30px;">Hello</button>
+        <h3>With margin and padding</h3>
+        <button style="margin:30px; padding:30px;">Hello</button>
+    </div>
+</body>
+<html>
